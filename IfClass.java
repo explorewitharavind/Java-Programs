@@ -7,10 +7,11 @@ public class IfClass {
         try (Scanner scan = new Scanner(System.in)) {
             Age = scan.nextInt();
         }
-        if (Age > 18) {
-
+        if (Age > 18) 
+        {
             System.out.println("Eligible to Vote");
-        } else {
+        } 
+        else {
             System.out.println("Not Eligible to Vote");
         }
 
