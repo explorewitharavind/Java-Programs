@@ -9,8 +9,8 @@ public class Readvalues {
             System.out.println("Enter the value of b");
             b = scanf.nextInt();
         }
-        System.out.println("The value of a = " + +a);
-        System.out.println("The value of b = " + +b);
+        System.out.println("The value of a = "  +a);
+        System.out.println("The value of b = "  +b);
 
     }
 
