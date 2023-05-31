@@ -2,12 +2,18 @@ import java.util.Scanner;
 
 public class ForLoop {
     public static void main(String[] args) {
-        int l;
-        System.out.println("Enter a how many Numbers you want to Display");
+        System.out.println("Enter your Name");
         Scanner sc = new Scanner(System.in);
-        l = sc.nextInt();
-        for (int i = 1; i <= l; i++) {
-            System.out.println(i);
+        String Name = sc.nextLine();
+        System.out.println("How many times you want to print ");
+        int Times = sc.nextInt();
+        int count=1;
+        int i=1;
+        while(i<=Times)
+        {
+            count++;
+            System.out.println(count+". My name is "+Name);
+            i++;
 
         }
     }
